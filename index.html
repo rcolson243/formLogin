@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Basique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="boxLogin">
+            <div class="containerLogo">
+                <img src="logo.svg" alt="logo">
+            </div>
+    
+            <div class="containerInput">
+                
+                <input id="inputUtilisateur" type="email" required placeholder="utilisateur">
+                
+                <input id="inputPassword" type="password" placeholder="mot de passe" pattern="[a-zA-Z 0-9]+"  maxlength="16">
+            </div>
+
+            <button type="submit">Connexion</button>
+            <p>Pas encore inscrit ? <a href="#">inscrivez-vous</a></p>
+        </div>
+
+        
+
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
